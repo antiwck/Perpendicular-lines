@@ -1,0 +1,40 @@
+# Perpendicular-lines
+Find out whether the two lines are perpendicular from given four points.
+
+Given 4 points of the form (xi, yi) in 2D plane, find out if the lines formed by (x1, y1), (x2, y2) and (x3, y3), (x4, y4) are perpendicular to each other.
+
+NOTE:
+It is NOT provided that the points are distinct i.e the first two or the last two points may be equal too!
+
+Input format:
+1. First line T is the number of test cases. Each test case is followed by 2 lines.
+2. The first line of every test case contains four integers (x1, y1) and (x2, y2).
+3. The second line contains four integers (x3, y3) and (x4, y4).
+
+Output format:
+For every test case :
+1. Print "YES" without quotes if the lines are perpendicular to each other
+2. Print "NO" without quotes if the lines are not perpendicular
+3. Print "INVALID" without quotes if there are less than 2 lines
+
+Constraints:
+1 <= T <= 10^5
+-10^18 <= xi <= 10^18
+-10^18 <= yi <= 10^18
+
+Sample Input:
+4
+1 2 3 3 
+3 3 1 7
+3 4 8 9
+13 5 13 5
+5 7 12 9
+1 5 9 15
+7 9 10 12
+10 14 17 21
+
+Sample Output:
+YES
+INVALID
+NO
+NO
